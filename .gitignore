@@ -3,3 +3,4 @@ __pycache__/
 pb_ex/build/
 *.so
 poetry.lock
+.DS_Store
