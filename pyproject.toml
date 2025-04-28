@@ -1,0 +1,23 @@
+[project]
+name = "pb-ex"
+version = "0.1.0"
+description = "Simple poetry example of building a module with CMake and Pybind11"
+authors = [
+    {name = "PipGrylls",email = "pipgryllsastro@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pybind11 (>=2.13.6,<3.0.0)"
+]
+
+[tool.poetry.build]
+script = "pb_ex/build.py"
+
+[build-system]
+requires = [
+"poetry-core>=2.0.0,<3.0.0",
+"pybind11>=2.13.0"
+]
+build-backend = "poetry.core.masonry.api"
+
