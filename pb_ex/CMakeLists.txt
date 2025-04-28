@@ -14,7 +14,9 @@ find_package(pybind11 CONFIG REQUIRED)
 # Get the cpp source files
 # Extend this with further .cpp or .h files as required for compilation
 file(GLOB EXAMPLE_SRC
-    src/example.cpp
+    src/pybind_boiler.cpp
+    src/source.cpp
+    src/source.h
 )
 message("EXAMPLE_SRC: ${EXAMPLE_SRC}")
 
