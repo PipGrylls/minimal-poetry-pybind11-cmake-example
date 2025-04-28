@@ -6,6 +6,7 @@ I cobbled this together from multiple places this is my attempt to refine it int
 
 >
 > `poetry lock`
+>
 > `poetry build`
 >
 > Check for the wheel `.whl` in dist there should also be a `.tar.gz`.
@@ -17,8 +18,9 @@ I cobbled this together from multiple places this is my attempt to refine it int
 >
 > The example module is now avalible
 >
-> > python3
+>
 > > from pb_ex import example
+> >
 > > print(example.add(1, 2))
 >
 > This should output 3
